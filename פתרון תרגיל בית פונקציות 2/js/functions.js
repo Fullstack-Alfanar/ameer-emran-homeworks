@@ -105,6 +105,7 @@ size(n);
 
 
 /// פתרון שאלה 4
+var n = +prompt("enter a number");
 function limit(n) {
   for (var i =1 ; i <=n ; i++) {
     document.write(i);
@@ -117,7 +118,7 @@ function size(n) {
     document.write("<br>");
   }
 }
-size(prompt("enter a number"));
+size(n);
 //-----------------------------------------------------------//
 
 /// שאלה 5
@@ -133,7 +134,7 @@ size(prompt("enter a number"));
 */
 
 /// פתרון שאלה 5
-
+var n = +prompt("enter a number");
 function row(n) {
   for (var i =0 ; i <n ; i++) {
     document.write("*");
@@ -146,7 +147,7 @@ function size(n) {
     document.write("<br>");
   }
 }
-size(prompt("enter a number"));
+size(n);
 
 //-----------------------------------------------------------//
 
@@ -198,24 +199,20 @@ size(n);
 */
 
 /// פתרון שאלה 7
-function row1(n) {
-  for (var i =0 ; i <n ; i++) {
-    document.write("*");
-  }
-}
-function row2(n) {
+function row(n) {
   for (var i =0 ; i <n ; i++) {
     document.write("*");
   }
 }
 
+
 function size(n) {
-  for (var i = n; i >= 0; i--) {
-    row1(i);
+  for (var i = n; i > 0; i--) {
+    row(i);
     document.write("<br>");
   }
   for (var i = 0; i <=n ; i++) {
-    row2(i);
+    row(i);
     document.write("<br>");
   }
 }
