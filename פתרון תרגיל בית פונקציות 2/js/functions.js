@@ -199,6 +199,7 @@ size(n);
 */
 
 /// פתרון שאלה 7
+var n = +prompt("enter a number");
 function row(n) {
   for (var i =0 ; i <n ; i++) {
     document.write("*");
@@ -217,5 +218,5 @@ function size(n) {
   }
 }
 
-size(prompt("enter a number"));
+size(n);
 
