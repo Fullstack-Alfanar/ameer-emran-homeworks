@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body onload="document.Form.email.focus()">
-    <div class="mail">
+<body>
+    <div class="head">
         <h2>Enter your Email address</h2>
         <form name="Form" action="#">
             <ul>
-                <li><input type='text' name='email' required></li>
+                <li><input id="email" type="text"></li>
                 <li>&nbsp;</li>
-                <li><input type='submit' name='validate' value="Check validation"
-                        onclick="ValidateEmail(document.Form.email)" />
+                <li><input type='submit' name='validate' value="send"
+                        onclick="ValidateEmail(email)"/>
                 </li>
 
             </ul>
