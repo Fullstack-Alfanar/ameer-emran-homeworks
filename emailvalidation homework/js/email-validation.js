@@ -1,4 +1,4 @@
-function ValidateEmail(email) 
+function ValidateEmail(x) 
 {
   let x = document.getElementById("email").value;
   let mailformat =/^[a-zA-Z0-9" ".!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
