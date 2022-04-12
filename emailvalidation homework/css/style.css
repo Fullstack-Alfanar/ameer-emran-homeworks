@@ -1,0 +1,22 @@
+li {list-style-type: none;
+    }
+    .head {
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 500px;
+    background-color: aqua;
+    border: 2px solid black;
+    }
+
+    h2 {
+    margin-left: 40px;
+    color: red;
+    }
+
+    input {
+    font-size: 25px;
+    }
+
+    
+    
