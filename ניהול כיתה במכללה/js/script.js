@@ -1,4 +1,16 @@
 var sum = 0;
+var arr;
+if(localStorage.getItem('storedata') != null)
+{
+  arr=JSON.parse(localStorage.getItem('storedata'));
+ 
+}
+// IN IF (FOR OLD DATA)
+
+else 
+{
+  arr=[];
+}
 
 function stam_func() {
   let elemnts = [];
@@ -31,5 +43,9 @@ function stam_func() {
     x1.textContent = lines.length;
     let x2 = document.getElementById("avg");
     x2.textContent = sum / lines.length;
+
+    arr.push(y);
+    localStorage.setItem('storedata', JSON.stringify(arr));
+    console.log(arr);
   }
 }
