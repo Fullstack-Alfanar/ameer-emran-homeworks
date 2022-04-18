@@ -43,7 +43,12 @@ function stam_func() {
     x1.textContent = lines.length;
     let x2 = document.getElementById("avg");
     x2.textContent = sum / lines.length;
-
+    let y={
+      studentname:  elemnts[0].value,
+      studentscore:  elemnts[1].value,
+      studentnumber: lines.length,
+      studentaverage: x2.textContent  
+    }
     arr.push(y);
     localStorage.setItem('storedata', JSON.stringify(arr));
     console.log(arr);
