@@ -1,5 +1,5 @@
 body{
-    width: 50%;
+    width: 80%;
 }
 .father{
     display: flex;
@@ -25,7 +25,13 @@ body{
 
 
 
+
+
 span{
     background-color: yellowgreen;
+}
+
+.str{
+    max-width:30px;
 }
 
