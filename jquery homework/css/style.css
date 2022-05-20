@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+}
+h1{
+    margin-left: 20%;
+    color: gold;
+    background-color: black;
+    width: 50%;
+}
+div{
+    margin-bottom: 20px;
+}
+
+.first {
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.second {
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.btn{
+    background-color: black;
+    color: gold;
+    font-size: 20px;
+    border-radius: 5px;
+}
