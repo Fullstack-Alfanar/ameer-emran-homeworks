@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@types/stats": "^0.16.30",
+    "typescript": "^4.7.3"
+  },
+  "name": "typescript-homework",
+  "version": "1.0.0",
+  "main": "excercises.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "date": "^2.0.0",
+    "datewizard": "^1.0.0",
+    "japanese": "^1.1.0",
+    "stats": "^1.0.0",
+    "str-util": "^2.3.28",
+    "wizard": "^2.0.0"
+  }
+}
