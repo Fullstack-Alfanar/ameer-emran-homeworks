@@ -9,11 +9,11 @@
 ## In this homework I wrote a JavaScript code to validate all the fourth inputs written above.
 
 ### Installing
-Copy my https repository: [ValidationForm Page]("https://github.com/Fullstack-Alfanar/ameer-e-homeworks.git)
-choose any terminal
-Git Clone- work locally with your computer
-Copy Repo URL
-cd (The name of the repository)- choose the file homework which you want.
-type a command code .
+- Copy my https repository: <a href="https://github.com/Fullstack-Alfanar/ameer-e-homeworks.git" target="_blank"> ValidationForm homework</a>
+- choose any terminal
+- Git Clone- work locally with your computer
+- Copy Repo URL
+- cd (The name of the repository)- choose the file homework which you want.
+- type a command code .
 
 #### All Rights Reserved- By Ameer Emran: Fullstack student developer: 11.04.2022
