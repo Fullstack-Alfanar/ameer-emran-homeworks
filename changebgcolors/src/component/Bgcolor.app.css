@@ -1,0 +1,24 @@
+.Container{
+  margin-top: 10%;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  margin:5% auto;
+  border: solid 3px;
+}
+.Child{
+  width: 50%;
+margin: auto;
+color: blue;
+font-size: 30px;
+background-color: bisque;
+}
+.Input{
+  width: 8%;
+  margin-left:47%;
+  margin-top: 20px;
+
+
+}
