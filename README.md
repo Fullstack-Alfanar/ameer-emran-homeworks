@@ -4,7 +4,7 @@
 - All the homeworks contain different programming tools for example: HTML, CSS, JavaScript, TypeScript, Node.Js, React... 
 
 ## Installing
-1. Copy my https repository
+1. Copy my https repository <a href="https://github.com/Fullstack-Alfanar/ameer-e-homeworks.git" target="_blank">Ameer Homeworks Folder</a>
 2. choose any terminal
 3. Git Clone- work locally with your computer
 4. Copy Repo URL
